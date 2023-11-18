@@ -1,0 +1,41 @@
+div.admin-wrapper {
+  div.header-wrapper {
+    #header {
+      div.main-header {
+        ul.menu-list {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          gap: 0.5rem;
+          li.menu-item {
+            a.menu-link {
+              padding: 0.5rem;
+              display: block;
+              border-radius: 0.5rem;
+              box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+              background-color: #232323;
+              color: #ffffff;
+              border: 2px solid #232323;
+              &.active {
+                background-color: aqua;
+                color: #232323;
+                border-color: aqua;
+              }
+              &:hover {
+                border-color: aqua;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.main-wrapper {
+    #main {
+      div.main-content {
+        padding: 1rem;
+      }
+    }
+  }
+}
